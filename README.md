@@ -47,8 +47,8 @@ target_link_libraries(seu_programa
 #include "hardware/i2c.h"
 #include "BH1750.h"
 
-constexpr uint I2C_SDA = 14u;
-constexpr uint I2C_SCL = 15u;
+#define I2C_SDA 14u;
+#define I2C_SCL 15u;
 
 int main() {
     stdio_init_all();
